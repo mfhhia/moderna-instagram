@@ -1,3 +1,43 @@
 .container {
   padding-top: 54px;
+  background-color: red;
+  height: 150px;
+  width: 614px;
+  display: flex;
+  gap: 3px;
+  overflow: auto;
+}
+.status-wrapper {
+  height: 95px;
+  width: 66px;
+  background-color: red;
+  overflow: auto;
+}
+.story {
+  width: 66px;
+  height: 86px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story .thumbnail {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://i.imgur.com/vQYUicd.png");
+  background-size: cover;
+}
+
+.thumbnail img {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%;
 }
